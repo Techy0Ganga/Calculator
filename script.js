@@ -1,6 +1,6 @@
 
 $(".printable").on("click", function () {
-    var sound = new Audio("click.wav");
+    var sound = new Audio("https://github.com/Techy0Ganga/Calculator/raw/refs/heads/master/click.wav");
     sound.play();
     $(".display").val($(".display").val() + $(this).text());
 });
